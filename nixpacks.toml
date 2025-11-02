@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["libGL", "libGLU", "mesa", "libglvnd"]
+nixPkgs = ["libgl", "libglu", "mesa", "libglvnd"]
 
 [phases.install]
 cmds = ["pip install -r requirements.txt"]
