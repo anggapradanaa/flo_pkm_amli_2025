@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="ZxdoUfFYG8oZoxTciy65">
+    <mxGraphModel dx="683" dy="1172" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UV1B4IrYGaC96e0oEOgh-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UV1B4IrYGaC96e0oEOgh-1" target="UV1B4IrYGaC96e0oEOgh-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="131" y="13" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UV1B4IrYGaC96e0oEOgh-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UV1B4IrYGaC96e0oEOgh-1" target="UV1B4IrYGaC96e0oEOgh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UV1B4IrYGaC96e0oEOgh-1" value="Identifikasi Masalah" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="48" y="-76" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UV1B4IrYGaC96e0oEOgh-20" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UV1B4IrYGaC96e0oEOgh-6" target="UV1B4IrYGaC96e0oEOgh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UV1B4IrYGaC96e0oEOgh-6" value="Studi Literatur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="48" y="17" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UV1B4IrYGaC96e0oEOgh-15" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UV1B4IrYGaC96e0oEOgh-7" target="UV1B4IrYGaC96e0oEOgh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UV1B4IrYGaC96e0oEOgh-7" value="Pengumpulan Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="48" y="110" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UV1B4IrYGaC96e0oEOgh-8" value="Perancangan Sistem dan Desain Teknis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="48" y="203" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UV1B4IrYGaC96e0oEOgh-16" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UV1B4IrYGaC96e0oEOgh-9" target="UV1B4IrYGaC96e0oEOgh-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UV1B4IrYGaC96e0oEOgh-9" value="Pembuatan Produk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="48" y="296" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UV1B4IrYGaC96e0oEOgh-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UV1B4IrYGaC96e0oEOgh-10" target="UV1B4IrYGaC96e0oEOgh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UV1B4IrYGaC96e0oEOgh-10" value="Pengujian Sistem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="48" y="389" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UV1B4IrYGaC96e0oEOgh-11" value="Evaluasi Sistem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="48" y="482" width="166" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
