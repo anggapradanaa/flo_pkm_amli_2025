@@ -1,0 +1,9 @@
+Flask
+folium
+requests
+opencv-python
+numpy
+matplotlib
+networkx
+ultralytics
+gunicorn
