@@ -1187,21 +1187,21 @@ def initialize_system():
     logger.info(f"Total edges in graph: {len(graph.edges())}")
     logger.info(f"Total nodes in graph: {len(graph.nodes())}")
 
+# Initialize the system when module is loaded
+initialize_system()
+
+# Log edge information
+logger.info("Edge information:")
+for u, v, data in graph.edges(data=True):
+    distance = data.get('distance', 0)
+    weight = data.get('weight', 0)
+    logger.info(f"  {NODE_LABELS[u]} -> {NODE_LABELS[v]}: {distance} km, "
+               f"initial travel time: {weight:.1f} minutes")
+
 if __name__ == '__main__':
-    # Initialize the system
-    initialize_system()
-    
-    # Log edge information
-    logger.info("Edge information:")
-    for u, v, data in graph.edges(data=True):
-        distance = data.get('distance', 0)
-        weight = data.get('weight', 0)
-        logger.info(f"  {NODE_LABELS[u]} -> {NODE_LABELS[v]}: {distance} km, "
-                   f"initial travel time: {weight:.1f} minutes")
-    
-    # Start the Flask application
+    # Start the Flask application (only when running directly)
     logger.info("Starting Flask web server...")
-    app.run(debug=True, threaded=True, host='0.0.0.0')
+    app.run(debug=False, threaded=True, host='0.0.0.0')
     
     # Cleanup on exit
     for handler in stream_handlers.values():
