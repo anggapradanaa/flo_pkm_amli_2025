@@ -179,8 +179,8 @@ class VideoStreamHandler:
     """
     A class to handle video stream processing with robust error handling and frame buffering.
     """
-    def __init__(self, video_path, node_id, buffer_size=5, max_retries=10, retry_delay=3, 
-                 reconnect_threshold=10, timeout=10):
+    def __init__(self, video_path, node_id, buffer_size=5, max_retries=999, retry_delay=5, 
+             reconnect_threshold=20, timeout=15):
         """
         Initialize the video stream handler.
         
