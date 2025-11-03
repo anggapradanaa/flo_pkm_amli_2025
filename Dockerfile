@@ -24,4 +24,4 @@ ENV PORT=8080
 EXPOSE 8080
 
 # Run application
-CMD gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --timeout 120
+CMD gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --timeout 300 --max-requests 5000 --max-requests-jitter 100 --worker-class sync --threads 4
